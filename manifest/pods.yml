@@ -1,0 +1,14 @@
+aipVersion: v1
+kind: Pod
+metadata: 
+  name: newpod
+lables: 
+  name: newpod
+spce:
+  containers: 
+    - name: con1
+      image: nginx
+      ports:
+        - name: clustar-pord
+          containerPord: 80
+          protocal: TCP
